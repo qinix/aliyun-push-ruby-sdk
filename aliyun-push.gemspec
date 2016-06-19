@@ -16,6 +16,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency 'httparty'
+  gem.add_dependency 'httparty', '~> 0.13.7'
 
 end
